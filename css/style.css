@@ -1,0 +1,144 @@
+
+
+nav{
+	background-color:#60F6C6 ;
+	width: 100%;
+}
+
+footer{
+	background-color:#60F6C6 ;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 6px 6px 5px white;
+}
+
+body{
+	background-image: url(../img/back.jpg);
+}
+
+#txtBody{
+	margin-top: 140px;
+	text-align: center;
+	font-size: 100px;
+	text-shadow: 5px 0 0 #E5CCE1, -5px 0 0 #E5CCE1, 0 5px 0 #E5CCE1, 0 -5px 0 #E5CCE1; 
+	 
+}
+
+#logo{
+	width: 250px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#enlaces{
+	display: inline-table;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	margin-left: 40%;
+	margin-bottom: 1%;
+}
+
+#enlaces1{
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #CCE5DD;
+}
+
+a{
+	text-decoration: none;
+}
+
+.promos{
+	text-align: center;
+	margin-top: 140px;
+}
+
+#promo{
+	margin-bottom: 30px;
+}
+
+#tablaProd{
+	margin-top: 30px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#products{
+	border-style: groove;
+	border-width: 20px;
+	border-color: #E8ED7D;
+
+}
+
+#txt2{
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 4px 4px 4px #61B99D;
+}
+
+#boxListado{
+	text-align: center;
+	font-size: 20px;
+	margin: auto;
+	width: 400px;
+	border-style: ridge;
+	box-shadow: 3px 3px 4px;
+	background-image: linear-gradient(to top left, #D3D5D3, #6CDCC3, #39D56B ) 
+}
+
+#formulario{
+	margin: 20px;
+	font-size: 20px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+legend{
+	text-shadow: 4px 4px 5px green ;
+}
+
+.data{
+	height: 30px;
+	width: 400px;
+}
+
+
+#coment{
+	height: 150px;
+	width: 400px;
+}
+
+
+.redes{
+	text-align: center;
+
+}
+
+.imgRedes{
+	width: 60px;
+	margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 700px){
+    nav,footer{
+    	background-color: lightgreen;
+    }
+
+    #enlaces{
+    	margin: auto;
+    }
+
+    #txtBody{
+	font-size: 50px;
+	}
+
+	#promo{
+		width: 450px;
+	}
+
+
+    
+    #imgtable{
+    	width: 100px;
+    }
+
+  }
